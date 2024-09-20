@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #1b263b;
+    color: #e0e1dd;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 2px solid #415a77;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.2em;
+    color: #9db2bf;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #e0e1dd;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid #415a77;
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: #1b263b;
+    border: 1px solid #415a77;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.card-img-top {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        width: 80%;
+    }
+}
+
+.card-body {
+    padding: 15px;
+    color: #e0e1dd;
+}
+
+.card-title {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #f2f2f2;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #9db2bf;
+}
+
+footer {
+    background-color: #1b263b;
+    color: #e0e1dd;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 2.2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
